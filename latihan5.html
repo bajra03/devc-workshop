@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lathian Perbandingan</title>
+</head>
+<body>
+
+
+
+    <script>
+        let a = Number(prompt("Masukan angka pertama!"));
+        if(isNaN(a)){
+            alert("Nilai yang dimasukan bukan angka!");
+        }
+
+        let b = Number(prompt("Masukan angka kedua!"));
+        if(isNaN(b)){
+            alert("Nilai yang dimasukan bukan angka!");
+        }
+        
+        if( a > b ){
+            alert(`Nilai ${a} lebih besar dari ${b}`);
+        }else if( a < b ){
+            alert(`Nilai ${a} lebih kecil dari ${b}`);
+        }else if(a == b){
+            alert(`Nilai ${a} dan ${b} sama`);
+        }else{
+            alert("Nilai yang dibandingkan tidak valid");
+        }
+        
+    </script>
+</body>
+</html>
